@@ -36,3 +36,36 @@ if (flag) {
 else {
     console.log(`${(palindrome)}:word is not a palindrome`)
 }
+
+//TASK 3
+
+
+let username = prompt("Enter your Name");
+let phoneNumber = +prompt("phone number");
+let email = prompt("Enter your email");
+let Password = prompt("Enter your Password");
+let confirmPassword = prompt("Enter your confirmPassword");
+
+
+if(!username){
+    alert('Error: Enter the Field');
+}
+if(!phoneNumber){
+    alert('Error:Enter the Field');
+}
+if(!email){
+    alert('Error:Enter the Field');
+}
+if(!Password){
+    alert('Error:Enter the Field');
+}
+if(!confirmPassword){
+    alert('ErrorEnter the Field');
+}
+
+if(Password === confirmPassword){
+    alert(`Succesfully Login The confirmPassword Is Same`)
+}
+else{
+    alert(`The Password Is Not same`)
+}
